@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: simple-jwt-api
-          image: CONTAINER_IMAGE
+          image: nnamdiindu007/flask-deploy:1.0
           securityContext:
             privileged: false
             readOnlyRootFilesystem: false
